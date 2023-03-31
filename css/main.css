@@ -1,0 +1,138 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header p {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 1.5rem 2.5rem;
+}
+
+main {
+  display: flexbox;
+  width: 100%;
+  height: 100%;
+  clear: both;
+}
+
+.image {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 2.5rem;
+  width: 80%;
+}
+
+.image img {
+  width: 77%;
+  height: 26%;
+}
+
+.warning-info {
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.warning-info h1 {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 4.44rem;
+  letter-spacing: -0.035em;
+  margin: 1.5rem 2.3rem;
+}
+
+.warning-info p {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  margin: 1.5rem 2.3rem;
+}
+
+.btn {
+  padding: 1.5rem 2.7rem;
+  margin: 2.3rem;
+  border: none;
+  background-color: #333333;
+}
+
+.btn a {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+  margin: 5rem 0 1.5rem 0;
+}
+
+footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+@media screen and (min-width: 860px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5rem 0;
+  }
+  .image {
+    width: 45%;
+  }
+  .warning-info {
+    width: 55%;
+  }
+  .warning-info h1 {
+    font-size: 4rem;
+    line-height: 5.8rem;
+  }
+  .warning-info p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    padding: 0 2rem 0 0;
+    letter-spacing: 0.15rem;
+  }
+  .btn a {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
